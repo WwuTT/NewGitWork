@@ -1,0 +1,17 @@
+git config --global user.name "用户名"
+git config --global user.email 你的邮箱@xxx.com
+
+生成ssh秘钥 用于关联github：ssh-keygen -t rsa -C "你的邮箱"
+使用公钥放入github网站中
+
+新建空文件夹 打开GIT Bash Here:
+把远程仓库克隆下来：
+git clone https://github.com/WwuTT/WorkSpaceTest1.git
+
+提交当前文件夹下所有内容
+
+进入WorkSpaceTest1文件夹
+git add .
+git commit -m '这次提交新增了一个txt'
+git push
+
